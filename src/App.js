@@ -9,8 +9,9 @@ function App() {
         <h1>martnaum</h1>
       </header>
       <section className="social">
-        <SocialIcon className="social-icon" url="https://linkedin.com/in/martin-naumann"/>
-        <SocialIcon className="social-icon" url="https://github.com/martnaum"/>
+        <SocialIcon className="social-icon" fgColor="grey" bgColor="transparent" url="https://linkedin.com/in/martnaum"/>
+        <SocialIcon className="social-icon" fgColor="grey" bgColor="transparent" url="https://github.com/martnaum"/>
+        <SocialIcon className="social-icon" fgColor="grey" bgColor="transparent" url="https://twitter.com/martnaum"/>
       </section>
     </div>
   );
