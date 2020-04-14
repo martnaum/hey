@@ -13,12 +13,12 @@ function App() {
       </header>
       <section className="description">
         <section className="descriptionBlock">
-          <p>Agile Project Management</p>
-          <p>Software Development</p>
+          <p>Agile Project Manager</p>
+          <p>Software Developer</p>
         </section>
         <section className="descriptionBlock">
-          <p>Open Source Enthusiast</p>
-          <p>Platform Technologies</p>
+          <p>Team Leader and Mentor</p>
+          <p>Troubleshooter</p>
         </section>
       </section>
       <footer>
