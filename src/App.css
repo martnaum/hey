@@ -4,21 +4,26 @@
   text-align: center;
   font-size: calc(5px + 2vmin);
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-  color: white;
-}
-
-.App-header {
+  color: whitesmoke;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
-.social {
-  display: flexbox;
-}
-
 .social-icon {
   margin-left: 5px;
-  margin-right: 5px
+  margin-right: 5px;
+}
+
+.description {
+  display: flex;
+  flex-direction: row;
+  color: grey;
+  font-size: calc(5px + 1.5vmin);
+}
+
+.descriptionBlock {
+  margin-left: calc(5vmin);
+  margin-right: calc(5vmin);
 }

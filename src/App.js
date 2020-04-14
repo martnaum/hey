@@ -5,17 +5,27 @@ import { SocialIcon } from 'react-social-icons';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <header>
         <h1>Hey, I am Martin!</h1>
+        <section>
+          <p>Beat ordinary thinking.</p>
+        </section>
       </header>
-      <section>
-        <p>Beat ordinary thinking.</p>
+      <section className="description">
+        <section className="descriptionBlock">
+          <p>Agile Project Management</p>
+          <p>Open Source Enthusiast</p>
+        </section>
+        <section className="descriptionBlock">
+          <p>Software Development</p>
+          <p>Platform Technologies</p>
+        </section>
       </section>
-      <section className="social">
+      <footer>
         <SocialIcon className="social-icon" fgColor="grey" bgColor="transparent" url="https://linkedin.com/in/martnaum"/>
         <SocialIcon className="social-icon" fgColor="grey" bgColor="transparent" url="https://github.com/martnaum"/>
         <SocialIcon className="social-icon" fgColor="grey" bgColor="transparent" url="https://twitter.com/martnaum"/>
-      </section>
+      </footer>
     </div>
   );
 }
