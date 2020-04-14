@@ -30,7 +30,10 @@
 
 @media only screen and (max-width: 600px) {
   .description {
-    /*this introduces a clear space between the flex items*/
     flex-direction: column;
+  }
+  .descriptionBlock {
+    /*otherwise we see a space between the flex items*/
+    margin: -5px;
   }
 }
