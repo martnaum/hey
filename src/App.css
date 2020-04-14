@@ -20,10 +20,17 @@
   display: flex;
   flex-direction: row;
   color: grey;
-  font-size: calc(5px + 1.5vmin);
 }
 
 .descriptionBlock {
-  margin-left: calc(5vmin);
-  margin-right: calc(5vmin);
+  font-size: calc(5px + 1.5vmin);
+  margin-left: calc(3vmin);
+  margin-right: calc(3vmin);
+}
+
+@media only screen and (max-width: 600px) {
+  .description {
+    /*this introduces a clear space between the flex items*/
+    flex-direction: column;
+  }
 }

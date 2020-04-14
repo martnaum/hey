@@ -14,10 +14,10 @@ function App() {
       <section className="description">
         <section className="descriptionBlock">
           <p>Agile Project Management</p>
-          <p>Open Source Enthusiast</p>
+          <p>Software Development</p>
         </section>
         <section className="descriptionBlock">
-          <p>Software Development</p>
+          <p>Open Source Enthusiast</p>
           <p>Platform Technologies</p>
         </section>
       </section>
