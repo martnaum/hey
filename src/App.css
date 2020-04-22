@@ -1,38 +1,39 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
   background-color: #282c34;
   min-height: 100vh;
+  text-align: center;
+  font-size: calc(5px + 2vmin);
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  color: #d9d9d9;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.description {
+  display: flex;
+  flex-direction: row;
+  color: grey;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.descriptionBlock {
+  font-size: calc(5px + 1.5vmin);
+  margin-left: calc(3vmin);
+  margin-right: calc(3vmin);
+}
+
+.social-icon {
+  margin-left: 4vmin;
+  margin-right: 4vmin;
+}
+
+@media only screen and (max-width: 600px) {
+  .description {
+    flex-direction: column;
   }
-  to {
-    transform: rotate(360deg);
+  .descriptionBlock {
+    /*otherwise we see a space between the flex items*/
+    margin: -5px;
   }
 }
