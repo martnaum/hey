@@ -25,6 +25,7 @@ function App() {
         <SocialIcon className="social-icon" fgColor="grey" bgColor="transparent" url="https://linkedin.com/in/martnaum"/>
         <SocialIcon className="social-icon" fgColor="grey" bgColor="transparent" url="https://github.com/martnaum"/>
         <SocialIcon className="social-icon" fgColor="grey" bgColor="transparent" url="https://twitter.com/martnaum"/>
+        <SocialIcon className="social-icon" fgColor="grey" bgColor="transparent" url="mailto:martin@naumann.world"/>
       </footer>
     </div>
   );
