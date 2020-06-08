@@ -22,10 +22,18 @@ function App() {
         </section>
       </section>
       <footer>
-        <SocialIcon className="social-icon" fgColor="grey" bgColor="transparent" url="https://linkedin.com/in/martnaum"/>
-        <SocialIcon className="social-icon" fgColor="grey" bgColor="transparent" url="https://github.com/martnaum"/>
-        <SocialIcon className="social-icon" fgColor="grey" bgColor="transparent" url="https://twitter.com/martnaum"/>
-        <SocialIcon className="social-icon" fgColor="grey" bgColor="transparent" url="mailto:martin@naumann.world"/>
+        <SocialIcon className="social-icon" fgColor="grey" bgColor="transparent"
+          url="https://linkedin.com/in/martnaum" target="_blank" rel="noopener noreferrer"
+        />
+        <SocialIcon className="social-icon" fgColor="grey" bgColor="transparent"
+          url="https://github.com/martnaum" target="_blank" rel="noopener noreferrer"
+        />
+        <SocialIcon className="social-icon" fgColor="grey" bgColor="transparent"
+          url="https://twitter.com/martnaum" target="_blank" rel="noopener noreferrer"
+        />
+        <SocialIcon className="social-icon" fgColor="grey" bgColor="transparent"
+          url="mailto:martin@naumann.world"
+        />
       </footer>
     </div>
   );
