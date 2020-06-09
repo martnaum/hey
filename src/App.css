@@ -11,6 +11,12 @@
   justify-content: center;
 }
 
+.image {
+  max-width: 40%;
+  height: auto;
+  width: auto\9;
+}
+
 .description {
   display: flex;
   flex-direction: row;

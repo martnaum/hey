@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import { SocialIcon } from 'react-social-icons';
+import me from './assets/me.png';
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <header>
         <h1>Hey, I am Martin!</h1>
         <section>
+          <img className="image" src={me} alt="me"/>
           <p>Beat ordinary thinking.</p>
         </section>
       </header>
