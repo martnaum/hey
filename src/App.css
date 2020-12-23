@@ -11,7 +11,8 @@
 }
 
 .base {
-  width: 50%;
+  width: 30vw;
+  margin-left: 15vw;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -20,7 +21,7 @@
 }
 
 .image {
-  max-width: 40%;
+  max-width: 65%;
   height: auto;
   width: auto\9;
 }
@@ -42,9 +43,20 @@
   margin-right: 4vmin;
 }
 
+.timeline {
+  width: 50%;
+}
+
 @media only screen and (max-width: 600px) {
   .App {
     flex-direction: column;
+  }
+  .base {
+    width: 100vw;
+    margin-left: 0vw;
+  }
+  .image {
+    max-width: 30%;
   }
   .description {
     flex-direction: column;

@@ -3,6 +3,13 @@ import './App.css';
 import { SocialIcon } from 'react-social-icons';
 import me from './assets/me.png';
 
+import Timeline from '@material-ui/lab/Timeline';
+import TimelineItem from '@material-ui/lab/TimelineItem';
+import TimelineSeparator from '@material-ui/lab/TimelineSeparator';
+import TimelineDot from '@material-ui/lab/TimelineDot';
+import TimelineConnector from '@material-ui/lab/TimelineConnector';
+import TimelineContent from '@material-ui/lab/TimelineContent';
+
 function App() {
   return (
     <div className="App">
@@ -38,6 +45,30 @@ function App() {
             url="mailto:martin@naumann.world"
           />
         </footer>
+      </section>
+      <section>
+        <Timeline align="left" className="timeline">
+          <TimelineItem>
+            <TimelineSeparator>
+              <TimelineDot />
+              <TimelineConnector />
+            </TimelineSeparator>
+            <TimelineContent>Eat</TimelineContent>
+          </TimelineItem>
+          <TimelineItem>
+            <TimelineSeparator>
+              <TimelineDot />
+              <TimelineConnector />
+            </TimelineSeparator>
+            <TimelineContent>Code</TimelineContent>
+          </TimelineItem>
+          <TimelineItem>
+            <TimelineSeparator>
+              <TimelineDot />
+            </TimelineSeparator>
+            <TimelineContent>Sleep</TimelineContent>
+          </TimelineItem>
+        </Timeline>
       </section>
     </div>
   );
