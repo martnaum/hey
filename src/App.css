@@ -1,14 +1,32 @@
-.App {
+.App
+{
   background-color: #282c34;
   min-height: 100vh;
-  text-align: center;
   font-size: calc(5px + 2vmin);
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   color: #d9d9d9;
   display: flex;
+  /*flex-direction: row;
+  flex-wrap: wrap;*/
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
+}
+
+.base {
+  width: 50%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.image {
+  max-width: 40%;
+  height: auto;
+  width: auto\9;
 }
 
 .description {
@@ -29,6 +47,9 @@
 }
 
 @media only screen and (max-width: 600px) {
+  .App {
+    flex-direction: column;
+  }
   .description {
     flex-direction: column;
   }
