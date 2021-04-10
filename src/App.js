@@ -35,7 +35,7 @@ function App() {
             url="https://twitter.com/martnaum" target="_blank" rel="noopener noreferrer"
           />
           <SocialIcon className="social-icon" fgColor="grey" bgColor="transparent"
-            url="mailto:martin@naumann.world"
+            url="mailto:hey@martnaum.com"
           />
         </footer>
       </section>
