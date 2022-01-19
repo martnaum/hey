@@ -17,7 +17,7 @@ function App() {
         <section className="description">
           <section className="descriptionBlock">
             <p>Agile Project Manager</p>
-            <p>Software Developer</p>
+            <p>Software Engineer</p>
           </section>
           <section className="descriptionBlock">
             <p>Team Leader and Mentor</p>
