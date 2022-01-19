@@ -29,12 +29,6 @@ function App() {
             url="https://linkedin.com/in/martnaum" target="_blank" rel="noopener noreferrer"
           />
           <SocialIcon className="social-icon" fgColor="grey" bgColor="transparent"
-            url="https://github.com/martnaum" target="_blank" rel="noopener noreferrer"
-          />
-          <SocialIcon className="social-icon" fgColor="grey" bgColor="transparent"
-            url="https://twitter.com/martnaum" target="_blank" rel="noopener noreferrer"
-          />
-          <SocialIcon className="social-icon" fgColor="grey" bgColor="transparent"
             url="mailto:hey@martnaum.com"
           />
         </footer>
