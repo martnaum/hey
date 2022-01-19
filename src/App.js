@@ -26,10 +26,10 @@ function App() {
         </section>
         <footer>
           <SocialIcon className="social-icon" fgColor="grey" bgColor="transparent"
-            url="https://linkedin.com/in/martnaum" target="_blank" rel="noopener noreferrer"
+            url="mailto:hey@martnaum.com"
           />
           <SocialIcon className="social-icon" fgColor="grey" bgColor="transparent"
-            url="mailto:hey@martnaum.com"
+            url="https://linkedin.com/in/martnaum" target="_blank" rel="noopener noreferrer"
           />
         </footer>
       </section>
