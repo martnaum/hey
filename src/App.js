@@ -17,7 +17,7 @@ function App() {
         <section className="description">
           <section className="descriptionBlock">
             <p>Agile Project Manager</p>
-            <p>Software Developer</p>
+            <p>Software Engineer</p>
           </section>
           <section className="descriptionBlock">
             <p>Team Leader and Mentor</p>
@@ -26,16 +26,10 @@ function App() {
         </section>
         <footer>
           <SocialIcon className="social-icon" fgColor="grey" bgColor="transparent"
-            url="https://linkedin.com/in/martnaum" target="_blank" rel="noopener noreferrer"
-          />
-          <SocialIcon className="social-icon" fgColor="grey" bgColor="transparent"
-            url="https://github.com/martnaum" target="_blank" rel="noopener noreferrer"
-          />
-          <SocialIcon className="social-icon" fgColor="grey" bgColor="transparent"
-            url="https://twitter.com/martnaum" target="_blank" rel="noopener noreferrer"
-          />
-          <SocialIcon className="social-icon" fgColor="grey" bgColor="transparent"
             url="mailto:hey@martnaum.com"
+          />
+          <SocialIcon className="social-icon" fgColor="grey" bgColor="transparent"
+            url="https://linkedin.com/in/martnaum" target="_blank" rel="noopener noreferrer"
           />
         </footer>
       </section>
